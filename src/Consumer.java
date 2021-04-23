@@ -15,7 +15,7 @@ public class Consumer extends Thread {
 
             sleep(3000); // only for demonstration
 
-            System.out.printf("Calculated by Thread %d: %d\n", id, fact(value));
+            System.out.printf("Calculated by Thread {%d}: %d\n", id, fact(value));
         }
     }
 
